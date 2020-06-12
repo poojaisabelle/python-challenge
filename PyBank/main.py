@@ -16,7 +16,7 @@ with open(budget_data, "r", encoding="utf-8") as input_csv_file:
     data_profit_loss = list()
     profit_loss_change = list()
 
-    # Use for loop to read through rows and adding them to the new lists  
+    # Use for loop to read through rows and add the data to the newly defined lists  
     for rows in csvreader:
         data_months.append(rows[0])
         data_profit_loss.append(int(rows[1]))
